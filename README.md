@@ -48,7 +48,7 @@ JWT for auth management (stored in localStorage)
 CricAPI for live match and player data
 
 Setup Instructions:
-1.git clone https://github.com/your-username/cricket-frontend.git
+1.git clone https://github.com/Thatiparthy-Akhil/cricket_frontend.git
 cd cricket-frontend
 
 2. install dependencies
