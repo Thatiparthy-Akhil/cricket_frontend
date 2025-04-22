@@ -47,7 +47,7 @@ const Home = () => {
   }
 
   const cardStyle = {
-    height: "auto", // ✅ Auto height based on content
+    height: "auto",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",

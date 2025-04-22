@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar"; // Import the Navbar
-import ProtectedRoute from "./components/ProtectedRoute"; // Import the ProtectedRoute
+import Navbar from "./components/Navbar";
+import ProtectedRoute from "./components/ProtectedRoute";
 
-// Import your pages
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Articles from "./pages/Articles";

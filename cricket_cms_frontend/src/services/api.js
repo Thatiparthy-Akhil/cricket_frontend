@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// Base URL of your backend API
-const API_BASE_URL = "http://localhost:3000"; // Make sure your backend server is running
+const API_BASE_URL = "http://localhost:3000";
 
 // Function to login a user
 export const login = async (email, password) => {
@@ -10,7 +9,7 @@ export const login = async (email, password) => {
       email,
       password,
     });
-    return response.data; // Assuming response contains the token
+    return response.data;
   } catch (error) {
     console.error("Error during login:", error.response?.data || error.message);
     throw new Error(
@@ -23,10 +22,10 @@ export const fetchArticles = async (token) => {
   try {
     const response = await axios.get(`${API_BASE_URL}/articles`, {
       headers: {
-        Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+        Authorization: `Bearer ${token}`,
       },
     });
-    return response.data; // Return the fetched articles
+    return response.data;
   } catch (error) {
     console.error(
       "Error fetching articles:",
@@ -43,10 +42,10 @@ export const fetchPlayers = async (token) => {
   try {
     const response = await axios.get(`${API_BASE_URL}/players`, {
       headers: {
-        Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+        Authorization: `Bearer ${token}`,
       },
     });
-    return response.data; // Return the fetched players
+    return response.data;
   } catch (error) {
     console.error(
       "Error fetching players:",
@@ -63,10 +62,10 @@ export const fetchLiveScores = async (token) => {
   try {
     const response = await axios.get(`${API_BASE_URL}/live-scores`, {
       headers: {
-        Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+        Authorization: `Bearer ${token}`,
       },
     });
-    return response.data; // Return the fetched live scores
+    return response.data;
   } catch (error) {
     console.error(
       "Error fetching live scores:",
