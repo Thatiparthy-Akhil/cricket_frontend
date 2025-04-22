@@ -17,7 +17,22 @@ Features
 🔗 Secure API communication with backend
 
 screenshots:
+project structure:
+![alt text](<Screenshot 2025-04-22 142427.png>)
+
+login
 ![alt text](<Screenshot 2025-04-22 141012.png>)
+Homepage:
+![alt text](<Screenshot 2025-04-22 141203.png>)
+
+![alt text](<Screenshot 2025-04-22 141218.png>)
+Articles:
+![alt text](<Screenshot 2025-04-22 141234.png>)
+
+players:
+![alt text](<Screenshot 2025-04-22 141246.png>)
+livescores:
+![alt text](<Screenshot 2025-04-22 141304.png>)
 
 Tech Stack
 React (Functional components)
