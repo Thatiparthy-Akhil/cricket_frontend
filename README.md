@@ -1,6 +1,11 @@
 🏏 Cricket CMS – Frontend
 This is the React-based frontend for the Cricket CMS application. It provides a responsive user interface to view live cricket scores, players, and news articles. Users can log in to interact with the content, while admins can post and manage articles.
 
+For deployement i used Azure:
+link:https://gray-cliff-08a709010.6.azurestaticapps.net
+![image](https://github.com/user-attachments/assets/54584a4a-4e16-49c7-a28a-404d7903d482)
+
+
 Features
 🔐 JWT-based user login & logout
 
@@ -27,7 +32,12 @@ Homepage:
 
 ![alt text](<Screenshot 2025-04-22 141218.png>)
 Articles:
-![alt text](<Screenshot 2025-04-22 141234.png>)
+when user login:
+![image](https://github.com/user-attachments/assets/d160ec96-0a98-4aba-b198-c2ec1dca87bd)
+when admin login:
+admin can create, update and delete the articles
+![image](https://github.com/user-attachments/assets/89cd1b0e-6c7e-499c-9e60-0e2cc6aad6d4)
+
 
 players:
 ![alt text](<Screenshot 2025-04-22 141246.png>)
