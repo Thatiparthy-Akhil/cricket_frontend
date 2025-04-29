@@ -26,7 +26,12 @@ project structure:
 ![alt text](<Screenshot 2025-04-22 142427.png>)
 
 login
-![alt text](<Screenshot 2025-04-22 141012.png>)
+![image](https://github.com/user-attachments/assets/b810f440-869e-44d1-b4ba-d297c2196f2c)
+
+signup:
+![image](https://github.com/user-attachments/assets/5f9eb405-3abb-4eb5-9695-f56667732600)
+
+
 Homepage:
 ![alt text](<Screenshot 2025-04-22 141203.png>)
 
